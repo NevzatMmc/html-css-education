@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+}
+@media(max-width:768px){
+    body{
+        background-color: yellow;
+    }
+    h2{
+        background-color: red;
+        color: aliceblue;
+    }
+    h3{
+        background-color: aqua;
+        color: brown;
+    }
+}
+h3{
+    font-size: 45px;
+}

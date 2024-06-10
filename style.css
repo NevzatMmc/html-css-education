@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navbar{
+    height: 55px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    color: white;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    padding: 10px;
+    transition: 0.7s;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: tomato;
+    color: black;
+    border-radius: 6px;
+}
